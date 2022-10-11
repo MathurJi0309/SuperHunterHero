@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="utils.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="localStorage.js"></script>
+    <title>🐱‍🏍Super Hero</title>
+</head>
+<body>
+    <!--..............................................................addd the audio here ......................................................-->
+    <audio id="my_audio" autoplay  loop>
+        <source src="Song/new.mp3"  >
+    </audio>
+    <!--.................................................................main page ............................................................-->
+    <div id="app">
+        <!--..........................................................background video ......................................................-->
+        <div class="header img-div">
+            <video  autoplay id="main-img" muted loop style="height: 103%; width:101%; object-fit: cover; position :fixed;" >
+                <source src="Video/video2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!--..............................................................main display container......................................................-->
+        <div id="containt" class="hero-main">
+            <div id="root">
+                <h1 class="hero-name">Super Hero App</h1>
+                <input type="text" name="superHero" id="superHeroValue" class="hero-input">
+            </div>
+            <!--..............................................................hero list ......................................................-->
+            <div  class="hero-list">
+                <ol id="list">
+                </ol>
+            </div>
+        </div>
+        <!--..............................................................footer ......................................................-->
+        <div id="footer" class="hero-border">
+            <a href="favorite.html" id="favlink"><h2 class="hero-fav">favorite List</h2></a>
+        </div>
+    </div>
+    
+</body>
+<script src="index.js"></script>
+</html>

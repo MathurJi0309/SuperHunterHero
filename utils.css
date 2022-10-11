@@ -1,0 +1,278 @@
+.border{
+    border: 1px solid black;
+}
+.height-full{
+    height: 100%;
+}
+.list-fav{
+    height: 10px;
+    width: 10px;   
+}
+.img-div{
+    height: 95%;
+    width:99%; 
+    position:absolute; 
+}
+
+/*....................................main hero page index or entry point where all list of hero show............................................*/
+
+
+#main-img{
+    height: 100vh; 
+    width: 100vw; 
+    margin-left: -0.7%; 
+    margin-top: -2%; 
+    opacity: 80%; 
+}
+.hero-main{
+    position: relative; 
+    height:80% ; 
+    width:50%; 
+    margin-left: 25%;
+}
+.hero-name{
+    margin-left:32%; 
+    font-size :250%; 
+}
+.hero-input{
+    height:30px; 
+    width:100%; 
+}
+.hero-list{
+    overflow: scroll; 
+    height: 70vh;
+}
+.hero-border{
+    position: relative; 
+    margin-left: 87%; 
+    margin-top: 3.0%; 
+    border: 3px solid white; 
+    height: 5%; 
+    width: 10%; 
+    border-radius: 5px;
+}
+.hero-fav{
+    margin-top: 3%; 
+    margin-left:5%;
+}
+
+
+/*..........................................................favourite hero html.................................................................*/
+
+
+.fav-img{
+    height: 100vh; 
+    width: 100vw; 
+    opacity: 80%; 
+    margin-left: -0.8%; 
+    margin-top: -5%; 
+    position: fixed;
+}
+.fav-div{
+    position: relative; 
+    height:80% ; 
+    width:50%; 
+    margin-left: 25%;
+}
+
+.fav-name{
+    margin-left:15%; 
+    font-size :250%; 
+    position: fixed; 
+    margin-top: -3%;
+}
+
+.home-footer{
+    position: fixed; 
+    margin-left: 87%; 
+    margin-top: 2%; 
+    border: 3px solid white; 
+    height: 5%; 
+    width: 10%; 
+    border-radius: 5px;
+}
+.fav-home{
+    margin-top: 0.2%; 
+    margin-left:2.5%; 
+    position: fixed;
+}
+
+/*.................................................................detail html...................................................................*/
+
+.detail-img{
+    background-size:contain; 
+    height: 100%; 
+    width: 100%; 
+    opacity: 80%; 
+    position: fixed; 
+    margin-left: -50%; 
+    margin-top: -5%;
+}
+
+.detail-div{
+    position: relative; 
+    height:80% ; 
+    width:50%; 
+    margin-left: 25%;
+}
+
+.div-app{
+    height: auto; 
+    width:100%; 
+    margin-top: 10%;
+    
+}
+
+.app-name{
+    margin-left:10%; 
+    font-size :250%;  
+    position: fixed;  
+}
+.fav-btn-div{
+    position: relative; 
+    margin-left: 87%; 
+    border: 3px solid white; 
+    height: 5%; 
+    width: 10%; 
+    border-radius: 5px;
+    position: fixed;
+}
+
+.fav-btn{
+    margin-top: 3%; 
+    margin-left:5%; 
+    border-radius: 10px;
+}
+
+.home-btn-div{
+    position: relative; 
+    margin-left: 5%;  
+    border: 3px solid white; 
+    height: 5%; 
+    width: 10%; 
+    border-radius: 5px;
+    position: fixed;
+}
+
+.home-btn{
+    margin-top: 3%; 
+    margin-left:5%;
+}
+
+/*..............................................................index.js.........................................................................*/
+
+.js-main-div{
+    display:flex; 
+    flex-direction:row; 
+    justify-content:space-between;
+}
+
+.js-a{
+    display:flex; 
+    flex-direction:row;
+}
+
+
+.js-img{
+    height:75px; 
+    width:75px; 
+    border-radius:10px;
+}
+
+.js-name{
+    margin-left:20%; 
+    font-size:1.25rem;
+}
+
+.js-fav{
+    border-radius:10px; margin-left:-50%; cursor:pointer;
+}
+
+
+.js-detail{
+    text-decoration:none; 
+    margin-left:-50%; 
+    background-color:white; 
+    border-radius:10px; 
+    margin-top:10px; 
+    color:black; 
+    height:15%; 
+    width:100%; 
+    text-align:center;
+}
+
+/*..........................................................................favourites js.........................................................*/
+
+
+.fav-js-img{
+    height:100px; 
+    width:100px; 
+    border-radius:10px;
+}
+
+.fav-js-name{
+    display:inline-block;
+    margin-left:20%; 
+    background-color:rgba(255,255,255,70%); 
+    border-radius:10px;
+}
+
+.Unfav-js-btn{
+    margin-top:20%;
+    margin-left:-50%; 
+    border-radius:10px;
+}
+
+.fav-js-more{
+    text-decoration:none; 
+    margin-left:-50%; 
+    background-color:white; 
+    border-radius:10px; 
+    margin-top:10px; 
+    color:black; 
+    height:15%; 
+    width:100%; 
+    text-align:center;
+}
+
+/*.............................................................detail js....................................................................*/
+.detail-js-div{
+    position:fixed; 
+    height:50vh; 
+    width:70vw; 
+    margin-left:-13%;
+}
+.detail-js-img{
+    height:150px; 
+    width:150px; 
+    margin-top:10%; 
+    border-radius:15px;
+    
+}
+
+.detail-js-name{
+    /* display:inline-block;  */
+    margin-left:0; 
+    background-color:rgba(255,255,255,75%); 
+    font-size:1.5rem;
+}
+
+.js-descr-div{
+    height:autopx; 
+    width:70%; 
+    margin-left:15%;
+}
+
+.js-descr{
+    background-color:rgba(255,255,255,55%); 
+    border-radius:10px; 
+    font-size:1.25rem;
+    overflow: scroll; 
+    height: 200px;
+}
+
+.fav-js-btn{
+    border-radius:10px; 
+    cursor:pointer;
+}
+
